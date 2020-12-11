@@ -8,7 +8,7 @@ class GitHubAPITest {
     @Test
     @DisplayName("GitHub 연동 테스트")
     void GitHub_연동_테스트() {
-        String token = "1317f08a8c008fb6a5d38a71338c8294c6cf6b6b";
+        String token = "GitHub에서 발급받은 Token";
         try {
             gitHubAPI.connectGitHUb(token);
         } catch (Exception e) {
